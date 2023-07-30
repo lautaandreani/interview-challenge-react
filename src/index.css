@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: black;
+        --gray: #0d0d0d;
+        --soft_gray: #a6a6a6;
+        --brand: #6f47ea;
+    }
+
+    .dark {
+        --background: gray;
+        --gray: #0d0d0d;
+        --soft_gray: black;
+        --brand: #fd7e55; 
+    }
+}
+
+@layer base {
+    body {
+        background: black;
+        color: #a6a6a6;
+        text-align: center;
+        margin-top: .5rem;
+        font-family: 'Inter Variable', sans-serif;
+    }
+}
